@@ -37,8 +37,7 @@ data class Article(
 
     @field:SerializedName("source")
     val sources: Sources,
-
-    ) : Parcelable
+) : Parcelable
 
 @Parcelize
 data class Sources(
